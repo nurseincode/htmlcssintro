@@ -1,0 +1,59 @@
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: lightblue;
+    font-size: 2rem;
+    padding: 1rem 2rem 3rem 4rem;
+    text-align: center;
+    border: 3px dashed black;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    background-color: lightblue;
+    width: 50%;
+    display: inline-block;
+    padding: 1rem;
+    
+}
+
+
+.coolstyles {
+    background-color: aliceblue;
+    color: purple;
+}
+
+#feature-heading {
+    text-decoration: underline;
+}
+
+li:nth-child(1) {
+    background-color: aliceblue;
+}
+li:nth-child(3n) {
+    background-color: aliceblue;
+}
+
+div img {
+    width: 50vw;
+}
+
+div {
+    width: 60%;
+    border: 2px solid black;
+}
+
+img {
+width: 50%;
+margin: 0;
+padding: 0;
+}
