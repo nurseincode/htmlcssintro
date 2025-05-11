@@ -1,6 +1,74 @@
+
 * {
    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
+header {
+    background: purple;
+    height: 100px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+}
+
+article {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: aqua;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap; /* shrink screen size to see effect */
+}
+
+article {
+    /* flex: calc((100% / 3) - 2rem); /* 2rem accounts for the 1rem article margin */
+    flex: 1 200px;
+}
+
+/* article:nth-of-type(2) {
+    flex: 2;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Foundation css without flexbox
+* {
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background: purple;
+    height: 100px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+}
+
+article {
+    padding: 1rem;
+    margin: 1rem;
+    background: aqua;
+} */
